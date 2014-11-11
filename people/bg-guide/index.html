@@ -1,0 +1,184 @@
+<html>
+
+<head>
+<title>Beej's Guides</title>
+<meta name="Description" content="Beej's Guides">
+<meta name="Keywords" content="beej guide network sockets ipc camera"/>
+<link rel="icon" type="image/gif" href="/guide/favicon.gif"/>
+<style type="text/css">
+<!--
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12pt;
+}
+
+#adsense {
+	float: right;
+	margin: 10px;
+}
+
+*.maintitle {
+	font-weight:bold;
+	font-size: 2.0em;
+	margin-bottom: 0px;
+}
+
+*.secttitle {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+*.email {
+	font-family: "Courier","Courier New",monospace;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+*.headerbar {
+	border: #000 solid 2px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #DDD;
+	margin: 1em;
+	padding: 1em;
+}
+
+*.beggartable {
+	border: #000,solid,2px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 2px;
+	margin: 1em;
+	padding: 1em;
+}
+
+hr.singleline {
+	border: #000 solid 0px;
+	height: 1px;
+	background-color: #000;
+	border-color: #000;
+}
+
+*.contact {
+	font-size: 0.8em;
+}
+-->
+</style>
+</head>
+
+<body>
+<img src=bg.gif alt="Beej's Guides"><br>
+<img src=gray_grad_line.gif alt="=================-----------------">
+
+<p>
+<table border="0" cellspacing="0" cellpadding="10" class="beggartable">
+<tr><td align="center"><small>Find it useful?</small><br/>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+"></form><small>Make a donation!</small></td>
+
+<td bgcolor="#dddddd" valign="top"><b>News!</b> Hey! <b><a
+href="http://beej.us/blog/">Check out my tech blog!</a></b>&mdash;and
+tell all your friends!
+
+<p>
+Over the years I've accumulated much
+information on many different things, and I enjoy taking a crack at
+explaining them to other people.  If you're lucky, that's you!  The time
+I spend working on these projects ebbs and flows, but check back some
+time in the future, and you might find some entirely new
+stuff.</td></tr>
+
+</table>
+
+<!--
+<p class="headerbar">I'm doing a bit of <b>computer science/programming
+tutoring</b> now in the Berkeley/Oakland/San Francisco area.  If you're
+interested or know someone who is, <a href="http://beej.us/tutor/">drop
+me a line!</a></p>
+-->
+
+<p>
+<table border="0">
+<tr><td align="center" style="border: solid #777777 1px;background: #d3d3d3">
+<a target="_blank" href="http://beej.us/guide/url/bgbuy">
+<img border="0" src="bgnet/bgnetcover.png" alt="book cover image"/><br/>
+<b><i><span style="font-size:0.8em;">Buy a (real) Book!</span></i></b></a></td>
+
+<td valign="bottom"><a href="bgnet/"><b>Beej's Guide to Network
+Programming</b></a> (online and for download)<br/>
+This is a beginner's guide to socket programming with Internet
+sockets. It is meant to be a springboard that will launch you into the
+exciting world of TCP/IP programming.  This document has earned a fair
+amount of <a href="bgnet/sockfan.html">praise</a>.</td>
+
+</tr></table>
+
+<p>
+<a href="bgipc/"><b>Beej's Guide to Unix Interprocess Communication</b></a><br/>
+Now that you have extra-process communication going on with sockets,
+why not try your hand at some interprocess communication, eh?  Shared
+memory, semaphores, signals, and memory mapped files await you!
+
+<p>
+<a href="bgc/"><b>Beej's Guide to C</b></a> <b><i>[rough draft]</i></b><br/>
+This is a bit of a practice book for later when I write a real book.
+Since I know C more like the back of my hand than any other language,
+it's a good place to start (because I don't need many references to
+write it!)  Keep in mind that this is completely incomplete right now,
+and I haven't even read most of what I've written.  Some of it is Just
+Plain Wrong.  So if you see errors of any kind, and there are a lot of
+them, feel free to drop me a line so I can fix them.  Likewise, if  you
+think the structure could be rearranged, or something was left out
+(since the book is in progress, lots of stuff is still left out), or if
+there was something you'd like to see, etc., etc., just let me know and
+I promise to at least think about it. <tt>:)</tt>
+
+<p>
+<a href="bggdb/"><b>Beej's Guide to the GNU Debugger (GDB)</b></a><br/>
+This is a quick introduction to using GDB, GNU's famous debugger, from
+the command line.
+
+<p>
+<a href="bgp/"><b>Beej's Guide to Photography</b></a><br/>
+I take photos for fun and maybe even profit (from time to time).  To
+do this, I use a number of little tricks and techniques that tend to
+make the photos turn on better.  And I've decided to share a number of
+those with you fine folks!  Also be sure to check out the "Toys" section
+while you're in there!
+
+<p>
+<a href="/moria/dragonslayer.html"><b>Beej's Guide to Killing
+Dragons</b></a><br/>
+If you play <a
+href="/moria/">Moria</a>, this will help
+you slay Ancient Multi-Hued Dragons from the safety of your own
+home.
+
+<p>
+<a href="/blog/"><b>Beej's Bit Bucket</b></a><br/>
+This is my programming-and-tech-related blog where I scribble down
+various pieces of information, as well as short programming tutorials.
+It's basically my outlet when I don't feel like writing an entire book.
+
+<!--
+<p>
+<a href="win95sch.html"><b>The Windows95 Scheduler</b></a><br/>
+A brief overview of how Windows95 schedules 32-bit applications.  If
+only all Windows apps were 32-bit, eh?  I wrote this for a class, so
+it's a bit more serious than the others.  Oh well.  Maybe I'll lighten
+it up later.
+</dd>
+-->
+
+<hr class="singleline">
+<span class="contact">Contact: <tt class="email"><a
+href="mailto:beej@beej.us">beej@beej.us</a></tt><br/>
+Visit: <a href="/">Beej's Home Page.</a></span>
+
+</html>
+
+</body>

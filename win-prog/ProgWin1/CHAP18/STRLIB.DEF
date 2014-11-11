@@ -1,0 +1,10 @@
+LIBRARY        STRLIB
+DESCRIPTION    'Library for STRPROG Program (C) Charles Petzold, 1987'
+STUB           'WINSTUB.EXE'
+CODE           MOVEABLE
+DATA           MOVEABLE SINGLE
+HEAPSIZE       1024
+EXPORTS        AddString
+               DeleteString
+               GetStrings
+

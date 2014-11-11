@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows
+END
+WinSemaphore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinSemaphore.cpp
+END
+WinListeningSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinListeningSocket.cpp
+END
+WinThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinThread.cpp
+END
+WinLock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinLock.cpp
+END
+WinSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinSocket.cpp
+END
+WinSemaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinSemaphore.h
+END
+WinListeningSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinListeningSocket.h
+END
+WinThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinThread.h
+END
+WinLock.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinLock.h
+END
+WinSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Base/PlatformDependant/Windows/WinSocket.h
+END

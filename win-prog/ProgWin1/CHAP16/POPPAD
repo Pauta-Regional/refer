@@ -1,0 +1,20 @@
+poppad.obj : poppad.c poppad.h
+     cl -c -AM -D LINT_ARGS -Gsw -Os -W2 -Zp poppad.c
+
+poppadf.obj : poppadf.c
+     cl -c -AM -D LINT_ARGS -Gsw -Os -W2 -Zp poppadf.c
+
+poppadp.obj : poppadp.c
+     cl -c -AM -D LINT_ARGS -Gsw -Os -W2 -Zp poppadp.c
+
+filedlg.obj : filedlg.c filedlg.h
+     cl -c -AM -D LINT_ARGS -Gsw -Os -W2 -Zp filedlg.c
+
+poppad.res : poppad.rc poppad.h poppad.ico filedlg.dlg filedlg.h
+     rc -r poppad.rc
+
+poppad.exe : poppad.obj poppadf.obj poppadp.obj \
+             filedlg.obj poppad.def poppad.res poppad.lnk
+     link4 @poppad.lnk
+     rc poppad.res
+

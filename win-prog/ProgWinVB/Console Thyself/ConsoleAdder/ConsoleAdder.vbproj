@@ -1,0 +1,89 @@
+<VisualStudioProject>
+    <VisualBasic ProjectType = "Local" >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                ApplicationRoot = "true"
+                AssemblyBuildNumber = "0"
+                AssemblyCompany = ""
+                AssemblyCopyright = ""
+                AssemblyDescription = ""
+                AssemblyKeyContainerName = ""
+                AssemblyMajorVersion = "1"
+                AssemblyMinorVersion = "0"
+                AssemblyName = "ConsoleAdder"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                AssemblyOriginatorKeyMode = "None"
+                AssemblyProduct = ""
+                AssemblyRevisionNumber = "0"
+                AssemblyTitle = ""
+                AssemblyTrademark = ""
+                CLSCompliant = "true"
+                DefaultClientScript = "JScript"
+                DefaultDTCPlatform = "Server"
+                DefaultHTMLPageLayout = "Linear"
+                DefaultTargetSchema = "HTML32"
+                DefaultSessionState = "True"
+                GenerateRevisionNumber = "true"
+                OutputType = "Exe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                _RootNamespace = "ConsoleAdder"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "0"
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "0"
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References/>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "ConsoleAdder.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

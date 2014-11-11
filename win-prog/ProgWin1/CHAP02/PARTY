@@ -1,0 +1,8 @@
+party.obj : party.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp party.c
+
+party.exe : party.obj party.def
+     link4 party, /align:16, /map, slibw, party
+     echo /* no resources */ >party.rc
+     rc party
+

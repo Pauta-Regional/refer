@@ -1,0 +1,6 @@
+clover.obj : clover.c
+     cl -c -D LINT_ARGS -FPa -Gsw -Os -W2 -Zp clover.c
+
+clover.exe : clover.obj clover.def
+     link4 clover, /align:16, /map, slibw, clover
+

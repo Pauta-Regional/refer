@@ -1,0 +1,10 @@
+arcs.obj : arcs.c arcs.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp arcs.c
+
+arcs.res : arcs.rc arcs.h
+     rc -r arcs.rc
+
+arcs.exe : arcs.obj arcs.def arcs.res
+     link4 arcs, /align:16, /map, slibw, arcs
+     rc arcs.res
+

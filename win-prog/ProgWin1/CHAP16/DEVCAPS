@@ -1,0 +1,13 @@
+devcaps.obj : devcaps.c devcaps.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp devcaps.c
+
+devcaps2.obj : devcaps2.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp devcaps2.c
+
+devcaps.res : devcaps.rc devcaps.h
+     rc -r devcaps.rc
+
+devcaps.exe : devcaps.obj devcaps2.obj devcaps.res devcaps.def
+     link4 devcaps devcaps2, /align:16, /map, slibw, devcaps
+     rc devcaps.res
+

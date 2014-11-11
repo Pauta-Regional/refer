@@ -1,0 +1,221 @@
+package com.enterprisej2me.MapPoint.awtui;
+
+import java.io.*;
+import java.awt.*;
+import java.awt.event.*;
+import com.enterprisej2me.MapPoint.portal.*;
+
+public class MapQuery extends Frame
+    implements WindowListener, ActionListener {
+  
+  private ScrollPane scroll;
+  private Panel content;
+  private Button go;
+  private Button startOver;
+  private Button showMap;
+  private Button showDirections;
+  private TextField fromStreet;
+  private TextField fromCity;
+  private TextField fromState;
+  private TextField fromZip;
+  private TextField toStreet;
+  private TextField toCity;
+  private TextField toState;
+  private TextField toZip;
+  private List directionsList;
+  
+  private int width, height;
+  private MPClient mpc;
+  
+  public MapQuery (int width, int height) {
+    super("MapPoint Java demo");
+    try {
+      go = new Button("Go");
+      go.addActionListener(this);
+      startOver = new Button("Start Over");
+      startOver.addActionListener(this);
+      showMap = new Button("Show Map");
+      showMap.addActionListener(this);
+      showDirections = new Button("Show Directions");
+      showDirections.addActionListener(this);
+      
+System.out.println("Break 01");
+      mpc = new MPClient ();
+System.out.println("Break 02");
+      
+      fromStreet = new TextField("", 20);
+      fromCity = new TextField("", 20);
+      fromState = new TextField("", 20);
+      fromZip = new TextField("", 20);
+      toStreet = new TextField("", 20);
+      toCity = new TextField("", 20);
+      toState = new TextField("", 20);
+      toZip = new TextField("", 20);
+      
+      scroll = new ScrollPane ();
+      add(scroll);
+      addWindowListener(this);
+      pack();
+      Insets is = getInsets();
+      width += is.left + is.right;
+      height += is.top + is.bottom;
+      Dimension ss = getToolkit().getScreenSize();
+      width = Math.min(width, ss.width);
+      height = Math.min(height, ss.height);
+      setBounds((ss.width - width) / 2, 
+                (ss.height - height) / 2, width, height);
+      
+      startScreen();
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+
+  // Listens to button events
+  public void actionPerformed (ActionEvent e) {
+    if ( e.getSource() == startOver ) {
+      startScreen();
+    } else if ( e.getSource() == go ) {
+      searchMP();
+      listScreen();
+    } else if ( e.getSource() == showDirections ) {
+      listScreen();
+    } else if ( e.getSource() == showMap ) {
+      mapScreen(directionsList.getSelectedIndex());
+    } else {
+      System.out.println("No such event?");
+    }
+  }
+  
+  public static void main(String[] args) {
+    new MapQuery(200, 200);
+  }
+  
+  public void startScreen () {
+    try {
+      if (content != null) {
+        scroll.remove(content);
+      }
+      content = new Panel ();
+      content.setLayout(new GridLayout(11, 2));
+      
+      content.add(new Label("From Address"));
+      content.add(new Label(""));
+      content.add(new Label("Street"));
+      content.add(fromStreet);
+      content.add(new Label("City"));
+      content.add(fromCity);
+      content.add(new Label("State"));
+      content.add(fromState);
+      content.add(new Label("Zip"));
+      content.add(fromZip);
+      content.add(new Label("To Address"));
+      content.add(new Label(""));
+      content.add(new Label("Street"));
+      content.add(toStreet);
+      content.add(new Label("City"));
+      content.add(toCity);
+      content.add(new Label("State"));
+      content.add(toState);
+      content.add(new Label("Zip"));
+      content.add(toZip);
+      content.add(new Label(""));
+      content.add(go);
+      
+      scroll.add(content);
+      setVisible(true);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+  
+  private void listScreen () {
+    try {
+      String [] directions = mpc.getDirections ();
+      directionsList = new List(5, false);
+      directionsList.add("Overview Map");
+      for (int i = 0; i < directions.length; i++) {
+        directionsList.add(directions[i]);
+      }
+      
+      
+      Panel top = new Panel ();
+      top.add(directionsList);
+      Panel bottom = new Panel ();
+      bottom.add(startOver);
+      bottom.add(showMap);
+      
+      scroll.remove(content);
+      content = new Panel ();
+      content.setLayout(new BorderLayout());
+      content.add(top, BorderLayout.CENTER);
+      content.add(bottom, BorderLayout.SOUTH);
+      scroll.add(content);
+      setVisible(true);
+      
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+  
+  private void mapScreen (int i) {
+    try {
+      ImageItem img;
+      if ( i == 0 ) {
+System.out.println("image size is " + mpc.getOverviewMap().length);
+        img = new ImageItem(mpc.getOverviewMap(),
+                            width-2, height-20);
+      } else {
+System.out.println("image size is " + mpc.getSegmentMap(i-1).length);
+        img = new ImageItem(mpc.getSegmentMap(i-1),
+                            width-2, height-20);
+      }
+      
+      Panel top = new Panel ();
+      top.add(img);
+      Panel bottom = new Panel ();
+      bottom.add(startOver);
+      bottom.add(showDirections);
+      
+      scroll.remove(content);
+      content = new Panel ();
+      content.setLayout(new BorderLayout());
+      content.add(top, BorderLayout.CENTER);
+      content.add(bottom, BorderLayout.SOUTH);
+      scroll.add(content);
+      setVisible(true);
+      
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+  
+  private void searchMP () {
+    try {
+      mpc.runService(fromStreet.getText(), fromCity.getText(),
+                     fromState.getText(), fromZip.getText(),
+                     toStreet.getText(), toCity.getText(),
+                     toState.getText(), toZip.getText(),
+                     width-2, height-20);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+  
+  public void closeDown () {
+    System.exit(0);
+    setVisible(true);
+  }
+
+  public void windowClosing(WindowEvent e) {
+    closeDown ();
+  }
+
+  public void windowOpened(WindowEvent e) {}
+  public void windowClosed(WindowEvent e) {}
+  public void windowIconified(WindowEvent e) {}
+  public void windowDeiconified(WindowEvent e) {}
+  public void windowActivated(WindowEvent e) {}
+  public void windowDeactivated(WindowEvent e) {}
+
+}

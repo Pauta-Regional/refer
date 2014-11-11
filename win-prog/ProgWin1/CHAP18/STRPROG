@@ -1,0 +1,10 @@
+strprog.obj : strprog.c strprog.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp strprog.c
+
+strprog.res : strprog.rc strprog.h
+     rc -r strprog.rc
+
+strprog.exe : strprog.obj strprog.res strprog.def
+     link4 strprog, /align:16, /map, slibw, strprog
+     rc strprog.res
+

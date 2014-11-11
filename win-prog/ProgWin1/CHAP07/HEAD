@@ -1,0 +1,6 @@
+head.obj : head.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp head.c
+
+head.exe : head.obj head.def
+     link4 head, /align:16, /map, slibw, head
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/windows/idt_hooking
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/windows/idt_hooking/test.c
+END
+build_user.bat
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/windows/idt_hooking/build_user.bat
+END
+sources
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/windows/idt_hooking/sources
+END
+driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/windows/idt_hooking/driver.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/windows/idt_hooking/makefile
+END

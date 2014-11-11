@@ -1,0 +1,13 @@
+print.obj : print.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp print.c
+
+print3.obj : print3.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp print3.c
+
+print.res : print.rc
+     rc -r print.rc
+
+print3.exe : print.obj print3.obj print3.def print.res
+     link4 print3 print, /align:16, /map, slibw, print3
+     rc print.res print3.exe
+

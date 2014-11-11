@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMenu", "SimpleMenu.csproj", "{01FD0ED7-61BF-4EC0-AA91-9E17151BBCAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01FD0ED7-61BF-4EC0-AA91-9E17151BBCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FD0ED7-61BF-4EC0-AA91-9E17151BBCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FD0ED7-61BF-4EC0-AA91-9E17151BBCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FD0ED7-61BF-4EC0-AA91-9E17151BBCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

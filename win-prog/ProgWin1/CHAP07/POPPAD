@@ -1,0 +1,8 @@
+poppad.obj : poppad.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp poppad.c
+
+poppad.exe : poppad.obj poppad.def
+     link4 poppad, /align:16, /map, slibw, poppad.def
+     echo /* no resources */ >poppad.rc
+     rc poppad
+

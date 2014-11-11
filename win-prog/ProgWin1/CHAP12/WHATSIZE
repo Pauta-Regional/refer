@@ -1,0 +1,6 @@
+whatsize.obj : whatsize.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp whatsize.c
+
+whatsize.exe : whatsize.obj whatsize.def
+     link4 whatsize, /align:16, /map, slibw, whatsize
+

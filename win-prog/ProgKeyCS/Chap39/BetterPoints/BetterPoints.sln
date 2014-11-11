@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterPoints", "BetterPoints.csproj", "{726A3B3F-0E0E-4402-82F7-A71961EDAC16}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{726A3B3F-0E0E-4402-82F7-A71961EDAC16}.Debug.ActiveCfg = Debug|.NET
+		{726A3B3F-0E0E-4402-82F7-A71961EDAC16}.Debug.Build.0 = Debug|.NET
+		{726A3B3F-0E0E-4402-82F7-A71961EDAC16}.Release.ActiveCfg = Release|.NET
+		{726A3B3F-0E0E-4402-82F7-A71961EDAC16}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

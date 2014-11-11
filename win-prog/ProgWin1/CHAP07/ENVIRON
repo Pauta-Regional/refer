@@ -1,0 +1,6 @@
+environ.obj : environ.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp environ.c
+
+environ.exe : environ.obj environ.def
+     link4 environ, /align:16, /map, slibw, environ
+

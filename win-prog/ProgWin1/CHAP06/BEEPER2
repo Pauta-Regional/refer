@@ -1,0 +1,6 @@
+beeper2.obj : beeper2.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp beeper2.c
+
+beeper2.exe : beeper2.obj beeper2.def
+     link4 beeper2, /align:16, /map, slibw, beeper2
+

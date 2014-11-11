@@ -1,0 +1,13 @@
+winprtsc.obj : winprtsc.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp winprtsc.c
+
+printscr.obj : printscr.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp printscr.c
+
+winprtsc.res : winprtsc.rc winprtsc.ico
+     rc -r winprtsc.rc
+
+winprtsc.exe : winprtsc.obj printscr.obj winprtsc.def winprtsc.res
+     link4 winprtsc printscr, /align:16, /map, slibw, winprtsc
+     rc winprtsc.res
+

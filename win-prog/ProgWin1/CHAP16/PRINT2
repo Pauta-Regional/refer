@@ -1,0 +1,9 @@
+print.obj : print.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp print.c
+
+print2.obj : print2.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp print2.c
+
+print2.exe : print.obj print2.obj print2.def
+     link4 print2 print, /align:16, /map, slibw, print2
+

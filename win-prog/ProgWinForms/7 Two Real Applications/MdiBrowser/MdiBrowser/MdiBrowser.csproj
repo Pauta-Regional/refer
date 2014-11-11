@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D49258F7-42E4-4136-9D4E-B439CAF6E266}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MdiBrowser</RootNamespace>
+    <AssemblyName>MdiBrowser</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ControlExplorer\AboutDialog.cs">
+      <Link>AboutDialog.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowserChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorite.cs" />
+    <Compile Include="MdiBrowser.AddrBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.FavoritesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.FileMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.HelpMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.ToolBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.ViewMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowser.WindowMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiBrowserSettings.cs">
+    </Compile>
+    <Compile Include="OpenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MdiBrowser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="homenet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="idr_dll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="hotplug.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\ControlExplorer\BookCover.png">
+      <Link>BookCover.png</Link>
+    </EmbeddedResource>
+    <Content Include="..\Help\MdiBrowser.chm">
+      <Link>MdiBrowser.chm</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="printer.ico" />
+  </ItemGroup>
+</Project>

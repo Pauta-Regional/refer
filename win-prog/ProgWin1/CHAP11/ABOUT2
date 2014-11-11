@@ -1,0 +1,10 @@
+about2.obj : about2.c about2.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp about2.c
+
+about2.res : about2.rc about2.h about2.ico
+     rc -r about2.rc
+
+about2.exe : about2.obj about2.def about2.res
+     link4 about2, /align:16, /map, slibw, about2
+     rc about2.res
+

@@ -1,0 +1,8 @@
+welcome5.obj : welcome5.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp welcome5.c
+
+welcome5.exe : welcome5.obj welcome5.def
+     link4 welcome5, /align:16, /map, slibw, welcome5
+     echo /* no resources */ >welcome5.rc
+     rc welcome5
+

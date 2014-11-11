@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<KeyofCSharp Version="1.0">
+  <Files>
+    <File RelPath="PayTheMusicians.cs" />
+    <File RelPath="FrenchHorn.cs" />
+    <File RelPath="Harp.cs" />
+    <File RelPath="Musician.cs" />
+    <File RelPath="SoundEngineer.cs" />
+    <File RelPath="Violin.cs" />
+  </Files>
+  <References />
+  <Settings CheckForOverflowUnderflow="False" DefineConstants="" DebugSymbols="False" DocumentationFile="" StartupObject="" Optimize="True" OutputType="exe" AllowUnsafeBlocks="False" WarningLevel="4" TreatWarningsAsErrors="False" />
+</KeyofCSharp>

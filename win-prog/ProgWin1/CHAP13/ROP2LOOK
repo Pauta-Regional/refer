@@ -1,0 +1,10 @@
+rop2look.obj : rop2look.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp rop2look.c
+
+rop2look.res : rop2look.rc
+     rc -r rop2look.rc
+
+rop2look.exe : rop2look.obj rop2look.def rop2look.res
+     link4 rop2look, /align:16, /map, slibw, rop2look
+     rc rop2look.res
+

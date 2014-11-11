@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir
+END
+ListDir.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/ListDir.h
+END
+ListDir.css
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/ListDir.css
+END
+FileInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/FileInfo.h
+END
+IDirHandling.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/IDirHandling.h
+END
+DirCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/DirCache.cpp
+END
+DirHandling.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/DirHandling.cpp
+END
+DirCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/DirCache.h
+END
+DirHandling.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/DirHandling.h
+END
+ModListDir.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/ModListDir.cpp
+END
+ListDir.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/ListDir.cpp
+END
+FileInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/FileInfo.cpp
+END
+ModListDir.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/ModListDir.vcproj
+END
+IDirHandling.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListDir/IDirHandling.cpp
+END

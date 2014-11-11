@@ -1,0 +1,6 @@
+sysmets.obj : sysmets.c sysmets.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp sysmets.c
+
+sysmets.exe : sysmets.obj sysmets.def
+     link4 sysmets, /align:16, /map, slibw, sysmets
+

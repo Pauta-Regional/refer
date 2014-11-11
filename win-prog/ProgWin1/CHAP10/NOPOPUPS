@@ -1,0 +1,10 @@
+nopopups.obj : nopopups.c nopopups.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp nopopups.c
+
+nopopups.res : nopopups.rc nopopups.h
+     rc -r nopopups.rc
+
+nopopups.exe : nopopups.obj nopopups.def nopopups.res
+     link4 nopopups, /align:16, /map, slibw, nopopups
+     rc nopopups.res
+

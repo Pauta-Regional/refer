@@ -1,0 +1,92 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SimpleClock", "SimpleClock\SimpleClock.vbproj", "{C02890D0-D2F3-4D68-9570-7A4736916D5D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DigitalClock", "DigitalClock\DigitalClock.vbproj", "{0B5BAEDD-84BE-4953-84CA-0CE3AE95BE6E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SevenSegmentClock", "SevenSegmentClock\SevenSegmentClock.vbproj", "{317CDC5D-2650-4C4D-AC5B-E72861D9576F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AnalogClock", "AnalogClock\AnalogClock.vbproj", "{C36BE5D9-9EC7-45A2-8558-0671CF848ED9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RandomRectangle", "RandomRectangle\RandomRectangle.vbproj", "{7B204A17-7653-41F4-8C9B-5259D3B3A3ED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CloseInFive", "CloseInFive\CloseInFive.vbproj", "{FBA1D375-16A6-4D78-AA53-CBE32D7879B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JeuDeTaquin", "JeuDeTaquin\JeuDeTaquin.vbproj", "{11D00D38-A160-42BD-A786-E4D2B7A54CCF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DigitalClockWithDate", "DigitalClockWithDate\DigitalClockWithDate.vbproj", "{37AF87C5-4D59-471F-9629-1693529B586C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+	ProjectSection(SolutionConfiguration) = postProject
+		Release.ActiveCfg = Release|.NET
+		Release.Build.0 = Release|.NET
+		Debug.ActiveCfg = Debug|.NET
+		Debug.Build.0 = Debug|.NET
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+		DoSign = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

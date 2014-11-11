@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl
+END
+PhysicalMemoryManager.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/PhysicalMemoryManager.c
+END
+AnonymousMemoryObjectPool.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/AnonymousMemoryObjectPool.c
+END
+VirtualMemorySegment.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/VirtualMemorySegment.c
+END
+MemoryHAL.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/MemoryHAL.h
+END
+NonPageableAnonymousMemoryObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/NonPageableAnonymousMemoryObject.c
+END
+KernelMemoryManager.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/KernelMemoryManager.c
+END
+PhysicalMemoryManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/PhysicalMemoryManager.h
+END
+MemoryPage.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/MemoryPage.c
+END
+AnonymousMemoryObjectPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/AnonymousMemoryObjectPool.h
+END
+VirtualMemorySegment.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/VirtualMemorySegment.h
+END
+PhysicalPage.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/PhysicalPage.c
+END
+NonPageableAnonymousMemoryObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/NonPageableAnonymousMemoryObject.h
+END
+KernelMemoryManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/KernelMemoryManager.h
+END
+MemoryPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/MemoryPage.h
+END
+PhysicalPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/PhysicalPage.h
+END
+MemoryHAL.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/kernel/memory/_impl/MemoryHAL.c
+END

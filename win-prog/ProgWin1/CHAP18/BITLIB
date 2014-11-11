@@ -1,0 +1,7 @@
+dummy.obj : dummy.asm
+     masm dummy ;
+
+bitlib.bml : dummy.obj bitlib.def bitlib.rc
+     link4 dummy, bitlib.bml /align:16, NUL, , bitlib
+     rc bitlib.rc bitlib.bml
+

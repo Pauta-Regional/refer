@@ -1,0 +1,5 @@
+LIBRARY        BITLIB
+DESCRIPTION    'Bitmap Library for Color EGA, 350 Scan Lines (for example)'
+STUB           'WINSTUB.EXE'
+DATA           NONE
+

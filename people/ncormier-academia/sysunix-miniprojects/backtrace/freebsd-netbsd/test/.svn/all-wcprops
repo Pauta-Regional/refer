@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test
+END
+segfault.core
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/segfault.core
+END
+strip
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/strip
+END
+strip.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/strip.c
+END
+nosym.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/nosym.c
+END
+debug
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/debug
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/debug.c
+END
+static
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/static
+END
+loop
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/loop
+END
+loop.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/loop.c
+END
+segfault
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/segfault
+END
+segfault.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/backtrace/freebsd-netbsd/test/segfault.c
+END

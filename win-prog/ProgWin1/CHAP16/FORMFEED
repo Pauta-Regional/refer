@@ -1,0 +1,6 @@
+formfeed.obj: formfeed.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp formfeed.c
+
+formfeed.exe: formfeed.obj formfeed.def
+     link4 formfeed, /align:16, /map, slibw, formfeed
+

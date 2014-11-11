@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeplersThirdLaw", "KeplersThirdLaw.csproj", "{D77E0DBF-F55F-40E2-8EF8-44CAC8CA4DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D77E0DBF-F55F-40E2-8EF8-44CAC8CA4DD5}.Debug.ActiveCfg = Debug|.NET
+		{D77E0DBF-F55F-40E2-8EF8-44CAC8CA4DD5}.Debug.Build.0 = Debug|.NET
+		{D77E0DBF-F55F-40E2-8EF8-44CAC8CA4DD5}.Release.ActiveCfg = Release|.NET
+		{D77E0DBF-F55F-40E2-8EF8-44CAC8CA4DD5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

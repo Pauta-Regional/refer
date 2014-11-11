@@ -1,0 +1,10 @@
+colorscr.obj : colorscr.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp colorscr.c
+
+colorscr.res : colorscr.rc
+     rc -r colorscr.rc
+
+colorscr.exe : colorscr.obj colorscr.def colorscr.res
+     link4 colorscr, /align:16, /map, slibw, colorscr
+     rc colorscr.res
+

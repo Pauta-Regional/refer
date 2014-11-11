@@ -1,0 +1,6 @@
+poormenu.obj : poormenu.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp poormenu.c
+
+poormenu.exe : poormenu.obj poormenu.def
+     link4 poormenu, /align:16, /map, slibw, poormenu
+

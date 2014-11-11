@@ -1,0 +1,6 @@
+welcome2.obj : welcome2.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp welcome2.c
+
+welcome2.exe : welcome2.obj welcome2.def
+     link4 welcome2, /align:16, /map, slibw, welcome2
+

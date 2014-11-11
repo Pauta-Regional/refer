@@ -1,0 +1,10 @@
+hexcalc.obj: hexcalc.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp hexcalc.c
+
+hexcalc.res : hexcalc.rc hexcalc.ico
+     rc -r hexcalc.rc
+
+hexcalc.exe: hexcalc.obj hexcalc.def hexcalc.res
+     link4 hexcalc, /align:16, /map, slibw, hexcalc
+     rc hexcalc.res
+

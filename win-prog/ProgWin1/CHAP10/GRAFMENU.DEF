@@ -1,0 +1,10 @@
+NAME           GRAFMENU
+DESCRIPTION    'Demo of Bitmapped Menu Items (C) Charles Petzold, 1987'
+STUB           'WINSTUB.EXE'
+CODE           MOVEABLE
+DATA           MOVEABLE MULTIPLE
+HEAPSIZE       1024
+STACKSIZE      4096
+EXPORTS        WndProc
+
+

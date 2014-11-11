@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI
+END
+CgiSave.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI/CgiSave.cpp
+END
+ModCGI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI/ModCGI.cpp
+END
+CGI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI/CGI.cpp
+END
+ModCGI.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI/ModCGI.vcproj
+END
+CgiSave.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI/CgiSave.h
+END
+CGI.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModCGI/CGI.h
+END

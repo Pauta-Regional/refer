@@ -1,0 +1,10 @@
+mfresorc.obj : mfresorc.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp mfresorc.c
+
+mfresorc.res : mfresorc.rc mylogo.wmf
+     rc -r mfresorc.rc
+
+mfresorc.exe : mfresorc.obj mfresorc.def mfresorc.res
+     link4 mfresorc, /align:16, /map, slibw, mfresorc
+     rc mfresorc.res
+

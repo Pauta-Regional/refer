@@ -1,0 +1,10 @@
+poepoem.obj : poepoem.c poepoem.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp poepoem.c
+
+poepoem.res : poepoem.rc poepoem.ico poepoem.asc poepoem.h
+     rc -r poepoem.rc
+
+poepoem.exe : poepoem.obj poepoem.def poepoem.res
+     link4 poepoem, /align:16, /map, slibw, poepoem
+     rc poepoem.res
+

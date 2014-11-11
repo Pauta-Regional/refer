@@ -1,0 +1,6 @@
+checker3.obj : checker3.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp checker3.c
+
+checker3.exe : checker3.obj checker3.def
+     link4 checker3, /align:16, /map, slibw, checker3
+

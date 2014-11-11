@@ -1,0 +1,12 @@
+#include "poepoem.h"
+
+poepoem     ICON  poepoem.ico
+AnnabelLee  TEXT  poepoem.asc
+
+STRINGTABLE
+     BEGIN
+          IDS_APPNAME, "poepoem"
+          IDS_CAPTION, """Annabel Lee"" by Edgar Allen Poe"
+          IDS_POEMRES, "AnnabelLee"
+     END
+

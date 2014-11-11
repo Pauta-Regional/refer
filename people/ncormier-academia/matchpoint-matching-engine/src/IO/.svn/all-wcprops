@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO
+END
+AnswerSerializer.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/AnswerSerializer.h
+END
+XMLWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/XMLWriter.h
+END
+ConfigAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/ConfigAdapter.cpp
+END
+UserRequestAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/UserRequestAdapter.cpp
+END
+AnswerSerializer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/AnswerSerializer.cpp
+END
+ConfigAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/ConfigAdapter.h
+END
+XMLWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/XMLWriter.cpp
+END
+UserRequestAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/UserRequestAdapter.h
+END

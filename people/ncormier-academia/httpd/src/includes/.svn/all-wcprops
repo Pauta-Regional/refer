@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes
+END
+ModuleConf.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/ModuleConf.h
+END
+ISemaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/ISemaphore.h
+END
+CoreMsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/CoreMsg.h
+END
+Actions.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Actions.h
+END
+Mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Mutex.h
+END
+XmlContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/XmlContainer.h
+END
+TicketsHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/TicketsHandler.h
+END
+XmlValidator.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/XmlValidator.h
+END
+Thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Thread.h
+END
+ZiaString.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/ZiaString.h
+END
+Dll.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Dll.h
+END
+IMutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/IMutex.h
+END
+XmlParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/XmlParser.h
+END
+ModuleData.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/ModuleData.h
+END
+ModuleArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/ModuleArg.h
+END
+CmdParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/CmdParser.h
+END
+IThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/IThread.h
+END
+Exceptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Exceptions.h
+END
+Semaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Semaphore.h
+END
+Ticket.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Ticket.h
+END
+IDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/IDll.h
+END
+ICData.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/ICData.h
+END
+Module.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Module.h
+END
+Core.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/Core.h
+END
+IModuleData.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/includes/IModuleData.h
+END

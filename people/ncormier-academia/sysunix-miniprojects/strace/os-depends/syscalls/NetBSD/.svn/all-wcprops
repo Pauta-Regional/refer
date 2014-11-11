@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/os-depends/syscalls/NetBSD
+END
+syscalls.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/os-depends/syscalls/NetBSD/syscalls.h
+END
+syscalls.pl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/os-depends/syscalls/NetBSD/syscalls.pl
+END
+syscalls.master
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/os-depends/syscalls/NetBSD/syscalls.master
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/os-depends/syscalls/NetBSD/Makefile
+END

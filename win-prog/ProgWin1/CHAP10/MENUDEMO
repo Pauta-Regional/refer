@@ -1,0 +1,10 @@
+menudemo.obj : menudemo.c menudemo.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp menudemo.c
+
+menudemo.res : menudemo.rc menudemo.h
+     rc -r menudemo.rc
+
+menudemo.exe : menudemo.obj menudemo.def menudemo.res
+     link4 menudemo, /align:16, /map, slibw, menudemo
+     rc menudemo.res
+

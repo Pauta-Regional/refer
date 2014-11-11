@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleHelloWorld", "ConsoleHelloWorld\ConsoleHelloWorld.vbproj", "{C217583C-84A9-484E-B669-A6C8DFF0A6F0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleAdder", "ConsoleAdder\ConsoleAdder.vbproj", "{2423E72D-F693-4E14-B0EB-07C3137806CE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MinAndMax", "MinAndMax\MinAndMax.vbproj", "{1064BC6A-4530-4C47-9F9E-5D48D1072854}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FirstBasicProgram", "FirstBasicProgram\FirstBasicProgram.vbproj", "{E920B49E-C793-44F7-82C5-D0CC99D627E5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsolidatingData", "ConsolidatingData\ConsolidatingData.vbproj", "{1732CB40-755A-4CE4-91E3-5C3EC9BF4ECA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AddingMethods", "AddingMethods\AddingMethods.vbproj", "{0EDCB2AD-E22E-4B8C-AD02-60654C42277A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DefiningTheClass", "DefiningTheClass\DefiningTheClass.vbproj", "{515A4845-32B4-4743-A125-D3436E43082F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SharingMethods", "SharingMethods\SharingMethods.vbproj", "{DDAFF513-4B03-4401-B511-DBF3A6095455}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PropertiesAndExceptions", "PropertiesAndExceptions\PropertiesAndExceptions.vbproj", "{D0BE7B8C-05A6-4F16-A9A6-DB0BEB2431BC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AddingConstructors", "AddingConstructors\AddingConstructors.vbproj", "{95034D70-FD1A-46CE-8662-83187131A6B8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InheritingTheClass", "InheritingTheClass\InheritingTheClass.vbproj", "{A3343B0D-2572-490E-B576-6A9BFB57F980}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleHelloWithImports", "ConsoleHelloWithImports\ConsoleHelloWithImports.vbproj", "{106542F7-4900-46C7-9307-6E8F9B1C1AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C217583C-84A9-484E-B669-A6C8DFF0A6F0}.Debug.ActiveCfg = Debug|.NET
+		{C217583C-84A9-484E-B669-A6C8DFF0A6F0}.Debug.Build.0 = Debug|.NET
+		{C217583C-84A9-484E-B669-A6C8DFF0A6F0}.Release.ActiveCfg = Release|.NET
+		{C217583C-84A9-484E-B669-A6C8DFF0A6F0}.Release.Build.0 = Release|.NET
+		{2423E72D-F693-4E14-B0EB-07C3137806CE}.Debug.ActiveCfg = Debug|.NET
+		{2423E72D-F693-4E14-B0EB-07C3137806CE}.Debug.Build.0 = Debug|.NET
+		{2423E72D-F693-4E14-B0EB-07C3137806CE}.Release.ActiveCfg = Release|.NET
+		{2423E72D-F693-4E14-B0EB-07C3137806CE}.Release.Build.0 = Release|.NET
+		{1064BC6A-4530-4C47-9F9E-5D48D1072854}.Debug.ActiveCfg = Debug|.NET
+		{1064BC6A-4530-4C47-9F9E-5D48D1072854}.Debug.Build.0 = Debug|.NET
+		{1064BC6A-4530-4C47-9F9E-5D48D1072854}.Release.ActiveCfg = Release|.NET
+		{1064BC6A-4530-4C47-9F9E-5D48D1072854}.Release.Build.0 = Release|.NET
+		{E920B49E-C793-44F7-82C5-D0CC99D627E5}.Debug.ActiveCfg = Debug|.NET
+		{E920B49E-C793-44F7-82C5-D0CC99D627E5}.Debug.Build.0 = Debug|.NET
+		{E920B49E-C793-44F7-82C5-D0CC99D627E5}.Release.ActiveCfg = Release|.NET
+		{E920B49E-C793-44F7-82C5-D0CC99D627E5}.Release.Build.0 = Release|.NET
+		{1732CB40-755A-4CE4-91E3-5C3EC9BF4ECA}.Debug.ActiveCfg = Debug|.NET
+		{1732CB40-755A-4CE4-91E3-5C3EC9BF4ECA}.Debug.Build.0 = Debug|.NET
+		{1732CB40-755A-4CE4-91E3-5C3EC9BF4ECA}.Release.ActiveCfg = Release|.NET
+		{1732CB40-755A-4CE4-91E3-5C3EC9BF4ECA}.Release.Build.0 = Release|.NET
+		{0EDCB2AD-E22E-4B8C-AD02-60654C42277A}.Debug.ActiveCfg = Debug|.NET
+		{0EDCB2AD-E22E-4B8C-AD02-60654C42277A}.Debug.Build.0 = Debug|.NET
+		{0EDCB2AD-E22E-4B8C-AD02-60654C42277A}.Release.ActiveCfg = Release|.NET
+		{0EDCB2AD-E22E-4B8C-AD02-60654C42277A}.Release.Build.0 = Release|.NET
+		{515A4845-32B4-4743-A125-D3436E43082F}.Debug.ActiveCfg = Debug|.NET
+		{515A4845-32B4-4743-A125-D3436E43082F}.Debug.Build.0 = Debug|.NET
+		{515A4845-32B4-4743-A125-D3436E43082F}.Release.ActiveCfg = Release|.NET
+		{515A4845-32B4-4743-A125-D3436E43082F}.Release.Build.0 = Release|.NET
+		{DDAFF513-4B03-4401-B511-DBF3A6095455}.Debug.ActiveCfg = Debug|.NET
+		{DDAFF513-4B03-4401-B511-DBF3A6095455}.Debug.Build.0 = Debug|.NET
+		{DDAFF513-4B03-4401-B511-DBF3A6095455}.Release.ActiveCfg = Release|.NET
+		{DDAFF513-4B03-4401-B511-DBF3A6095455}.Release.Build.0 = Release|.NET
+		{D0BE7B8C-05A6-4F16-A9A6-DB0BEB2431BC}.Debug.ActiveCfg = Debug|.NET
+		{D0BE7B8C-05A6-4F16-A9A6-DB0BEB2431BC}.Debug.Build.0 = Debug|.NET
+		{D0BE7B8C-05A6-4F16-A9A6-DB0BEB2431BC}.Release.ActiveCfg = Release|.NET
+		{D0BE7B8C-05A6-4F16-A9A6-DB0BEB2431BC}.Release.Build.0 = Release|.NET
+		{95034D70-FD1A-46CE-8662-83187131A6B8}.Debug.ActiveCfg = Debug|.NET
+		{95034D70-FD1A-46CE-8662-83187131A6B8}.Debug.Build.0 = Debug|.NET
+		{95034D70-FD1A-46CE-8662-83187131A6B8}.Release.ActiveCfg = Release|.NET
+		{95034D70-FD1A-46CE-8662-83187131A6B8}.Release.Build.0 = Release|.NET
+		{A3343B0D-2572-490E-B576-6A9BFB57F980}.Debug.ActiveCfg = Debug|.NET
+		{A3343B0D-2572-490E-B576-6A9BFB57F980}.Debug.Build.0 = Debug|.NET
+		{A3343B0D-2572-490E-B576-6A9BFB57F980}.Release.ActiveCfg = Release|.NET
+		{A3343B0D-2572-490E-B576-6A9BFB57F980}.Release.Build.0 = Release|.NET
+		{106542F7-4900-46C7-9307-6E8F9B1C1AB6}.Debug.ActiveCfg = Debug|.NET
+		{106542F7-4900-46C7-9307-6E8F9B1C1AB6}.Debug.Build.0 = Debug|.NET
+		{106542F7-4900-46C7-9307-6E8F9B1C1AB6}.Release.ActiveCfg = Release|.NET
+		{106542F7-4900-46C7-9307-6E8F9B1C1AB6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

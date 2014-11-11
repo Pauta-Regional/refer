@@ -1,0 +1,6 @@
+sysmets2.obj : sysmets2.c sysmets.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp sysmets2.c
+
+sysmets2.exe : sysmets2.obj sysmets2.def
+     link4 sysmets2, /align:16, /map, slibw, sysmets2
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace
+END
+param.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/param.c
+END
+strace.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/strace.c
+END
+strace.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/strace.h
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/error.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/strace/Makefile
+END

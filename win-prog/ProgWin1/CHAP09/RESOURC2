@@ -1,0 +1,10 @@
+resourc2.obj : resourc2.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp resourc2.c
+
+resourc2.res : resourc2.rc resourc2.ico resourc2.cur resourc2.bmp
+     rc -r resourc2.rc
+
+resourc2.exe : resourc2.obj resourc2.def resourc2.res
+     link4 resourc2, /align:16, /map, slibw, resourc2
+     rc resourc2.res
+

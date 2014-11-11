@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL
+END
+ClientSocketSSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/ClientSocketSSL.h
+END
+NetworkSSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/NetworkSSL.h
+END
+Makefile.sun
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/Makefile.sun
+END
+ModNetworkSSL.layout
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/ModNetworkSSL.layout
+END
+ClientSocketSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/ClientSocketSSL.cpp
+END
+NetworkSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/NetworkSSL.cpp
+END
+ModNetworkSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/ModNetworkSSL.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/Makefile
+END
+ModNetworkSSL.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetworkSSL/ModNetworkSSL.cbp
+END

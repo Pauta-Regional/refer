@@ -1,0 +1,13 @@
+#include "fontlist.h"
+
+FontList MENU
+     BEGIN
+          POPUP "&Device"
+               BEGIN
+                    MENUITEM "&Screen",  IDM_SCREEN, CHECKED
+                    MENUITEM "&Printer", IDM_PRINTER
+                    MENUITEM SEPARATOR
+                    MENUITEM "E&xit",    IDM_EXIT
+               END
+     END
+

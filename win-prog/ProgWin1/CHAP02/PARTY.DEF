@@ -1,0 +1,11 @@
+NAME           PARTY
+DESCRIPTION    'Overlapped, Popup, and Child Windows (C) Charles Petzold, 1987'
+STUB           'WINSTUB.EXE'
+CODE           MOVEABLE
+DATA           MOVEABLE MULTIPLE
+HEAPSIZE       1024
+STACKSIZE      4096
+EXPORTS        WndProc
+               PopupWndProc
+               ChildWndProc
+

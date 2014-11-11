@@ -1,0 +1,6 @@
+randrect.obj : randrect.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp randrect.c
+
+randrect.exe : randrect.obj randrect.def
+     link4 randrect, /align:16, /map, slibw, randrect
+

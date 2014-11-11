@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering
+END
+ModFileReg.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ModFileReg.vcproj
+END
+Answering.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/Answering.h
+END
+Reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/Reader.cpp
+END
+Reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/Reader.h
+END
+HeaderAnswer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/HeaderAnswer.cpp
+END
+ModFileReg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ModFileReg.cpp
+END
+ModAnswering.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ModAnswering.vcproj
+END
+ServerAnswer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ServerAnswer.cpp
+END
+FileReq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/FileReq.cpp
+END
+UrlEnc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/UrlEnc.cpp
+END
+ITransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ITransform.h
+END
+ServerAnswer.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ServerAnswer.h
+END
+FileReq.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/FileReq.h
+END
+Answering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/Answering.cpp
+END
+ModAnswering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/ModAnswering.cpp
+END
+UrlEnc.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModAnswering/UrlEnc.h
+END

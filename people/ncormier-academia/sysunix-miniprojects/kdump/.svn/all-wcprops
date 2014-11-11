@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump
+END
+dump_func.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/dump_func.c
+END
+kdump.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/kdump.c
+END
+timeval.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/timeval.c
+END
+opt.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/opt.c
+END
+kdump.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/kdump.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/Makefile
+END

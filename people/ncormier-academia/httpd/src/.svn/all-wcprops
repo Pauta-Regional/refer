@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src
+END
+CoreMsg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/CoreMsg.cpp
+END
+Mutex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Mutex.cpp
+END
+XmlContainer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/XmlContainer.cpp
+END
+TicketsHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/TicketsHandler.cpp
+END
+XmlValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/XmlValidator.cpp
+END
+Thread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Thread.cpp
+END
+Dll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Dll.cpp
+END
+XmlParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/XmlParser.cpp
+END
+CmdParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/CmdParser.cpp
+END
+Semaphore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Semaphore.cpp
+END
+Zia.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Zia.cpp
+END
+Ticket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Ticket.cpp
+END
+Module.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Module.cpp
+END
+Core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/Core.cpp
+END
+ModuleConf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/src/ModuleConf.cpp
+END

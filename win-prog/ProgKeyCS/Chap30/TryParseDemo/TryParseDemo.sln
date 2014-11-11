@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseDemo", "TryParseDemo.csproj", "{C093C29D-A95E-4A94-89E5-C12F8A0F7DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C093C29D-A95E-4A94-89E5-C12F8A0F7DDC}.Debug.ActiveCfg = Debug|.NET
+		{C093C29D-A95E-4A94-89E5-C12F8A0F7DDC}.Debug.Build.0 = Debug|.NET
+		{C093C29D-A95E-4A94-89E5-C12F8A0F7DDC}.Release.ActiveCfg = Release|.NET
+		{C093C29D-A95E-4A94-89E5-C12F8A0F7DDC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

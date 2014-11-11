@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationWithSeparateMethod", "CalculationWithSeparateMethod.csproj", "{168E92D0-0623-44D2-B469-E20391A2EEEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{168E92D0-0623-44D2-B469-E20391A2EEEB}.Debug.ActiveCfg = Debug|.NET
+		{168E92D0-0623-44D2-B469-E20391A2EEEB}.Debug.Build.0 = Debug|.NET
+		{168E92D0-0623-44D2-B469-E20391A2EEEB}.Release.ActiveCfg = Release|.NET
+		{168E92D0-0623-44D2-B469-E20391A2EEEB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

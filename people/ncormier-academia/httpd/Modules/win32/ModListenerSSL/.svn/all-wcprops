@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListenerSSL
+END
+ModListenerSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListenerSSL/ModListenerSSL.cpp
+END
+ListenerSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListenerSSL/ListenerSSL.cpp
+END
+ModListenerSSL.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListenerSSL/ModListenerSSL.vcproj
+END
+ListenerSSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModListenerSSL/ListenerSSL.h
+END

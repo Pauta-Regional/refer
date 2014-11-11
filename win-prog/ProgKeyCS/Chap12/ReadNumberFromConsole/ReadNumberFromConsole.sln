@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadNumberFromConsole", "ReadNumberFromConsole.csproj", "{3A1A8A34-B9A1-417C-BD29-B1CBAAD6EB05}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3A1A8A34-B9A1-417C-BD29-B1CBAAD6EB05}.Debug.ActiveCfg = Debug|.NET
+		{3A1A8A34-B9A1-417C-BD29-B1CBAAD6EB05}.Debug.Build.0 = Debug|.NET
+		{3A1A8A34-B9A1-417C-BD29-B1CBAAD6EB05}.Release.ActiveCfg = Release|.NET
+		{3A1A8A34-B9A1-417C-BD29-B1CBAAD6EB05}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

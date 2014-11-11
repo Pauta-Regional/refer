@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureWithToString", "StructureWithToString.csproj", "{E0A6F328-5C4E-4C12-BDFA-4B9B8936E5A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E0A6F328-5C4E-4C12-BDFA-4B9B8936E5A4}.Debug.ActiveCfg = Debug|.NET
+		{E0A6F328-5C4E-4C12-BDFA-4B9B8936E5A4}.Debug.Build.0 = Debug|.NET
+		{E0A6F328-5C4E-4C12-BDFA-4B9B8936E5A4}.Release.ActiveCfg = Release|.NET
+		{E0A6F328-5C4E-4C12-BDFA-4B9B8936E5A4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

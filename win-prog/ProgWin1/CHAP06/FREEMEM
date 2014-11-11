@@ -1,0 +1,6 @@
+freemem.obj : freemem.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp freemem.c
+
+freemem.exe : freemem.obj freemem.def
+     link4 freemem, /align:16, /map, slibw, freemem
+

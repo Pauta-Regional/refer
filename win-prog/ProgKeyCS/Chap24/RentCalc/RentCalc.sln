@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentCalc", "RentCalc.csproj", "{BFBDB1F0-C9F0-45A0-AEFC-3A3EA9C7C506}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BFBDB1F0-C9F0-45A0-AEFC-3A3EA9C7C506}.Debug.ActiveCfg = Debug|.NET
+		{BFBDB1F0-C9F0-45A0-AEFC-3A3EA9C7C506}.Debug.Build.0 = Debug|.NET
+		{BFBDB1F0-C9F0-45A0-AEFC-3A3EA9C7C506}.Release.ActiveCfg = Release|.NET
+		{BFBDB1F0-C9F0-45A0-AEFC-3A3EA9C7C506}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

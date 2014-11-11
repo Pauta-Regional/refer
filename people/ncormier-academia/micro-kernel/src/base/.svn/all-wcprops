@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/base
+END
+assert.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/base/assert.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/base/types.h
+END
+queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/base/queue.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/base/string.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/base/debug.h
+END

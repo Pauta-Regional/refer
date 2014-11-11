@@ -1,0 +1,9 @@
+libentry.obj : libentry.asm
+     masm libentry ;
+
+strlib.obj : strlib.c
+     cl -c -Asnw -D LINT_ARGS -Gsw -Os -W2 -Zp strlib.c
+
+strlib.exe : strlib.obj libentry.obj strlib.def
+     link4 strlib libentry, /align:16, /map, swinlibc slibw, strlib
+

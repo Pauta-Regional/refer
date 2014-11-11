@@ -1,0 +1,6 @@
+checker2.obj : checker2.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp checker2.c
+
+checker2.exe : checker2.obj checker2.def
+     link4 checker2, /align:16, /map, slibw, checker2
+

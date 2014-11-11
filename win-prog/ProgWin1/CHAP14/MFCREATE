@@ -1,0 +1,6 @@
+mfcreate.obj : mfcreate.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp mfcreate.c
+
+mfcreate.exe : mfcreate.obj mfcreate.def
+     link4 mfcreate, /align:16, /map, slibw, mfcreate
+

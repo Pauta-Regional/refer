@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork
+END
+Network.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/Network.h
+END
+Makefile.sun
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/Makefile.sun
+END
+ModNetwork.layout
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/ModNetwork.layout
+END
+ModNetwork.depend
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/ModNetwork.depend
+END
+ClientSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/ClientSocket.cpp
+END
+Network.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/Network.cpp
+END
+ModNetwork.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/ModNetwork.cpp
+END
+ModNetwork.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/ModNetwork.cbp
+END
+ClientSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/ClientSocket.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/unix/ModNetwork/Makefile
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol
+END
+ModProtocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol/ModProtocol.cpp
+END
+Protocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol/Protocol.cpp
+END
+ModProtocol.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol/ModProtocol.vcproj
+END
+Protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol/Protocol.h
+END
+ClientRequest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol/ClientRequest.cpp
+END
+ClientRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/epitech%20bachelor%20projects/httpd/Modules/win32/ModProtocol/ClientRequest.h
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task
+END
+NotificationTask.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/NotificationTask.h
+END
+MatchTask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/MatchTask.cpp
+END
+Task.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/Task.cpp
+END
+MatchTask.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/MatchTask.h
+END
+TaskFifo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/TaskFifo.cpp
+END
+Task.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/Task.h
+END
+NotificationTask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/NotificationTask.cpp
+END
+TaskFifo.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/Task/TaskFifo.h
+END

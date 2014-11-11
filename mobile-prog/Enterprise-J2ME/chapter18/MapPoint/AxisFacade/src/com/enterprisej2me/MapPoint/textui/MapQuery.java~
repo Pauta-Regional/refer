@@ -1,0 +1,24 @@
+package com.enterprisej2me.MapPoint.portal;
+
+public class DumbUI {
+  
+  public static void main(String[] args) {
+    try {
+      MPClient c = new MPClient ();
+      c.runService("1 Microsoft Way", "Redmond", "WA", "",
+                   "2345 Congress Ave", "Austin", "TX", "",
+                   240, 240);
+      String [] directions = c.getDirections();
+      int seglen = c.getSegmentNum();
+      
+      System.out.println("Overview map size is " +
+                         c.getOverviewMap().length);
+      for (int i = 0; i < seglen; i++) {
+        System.out.print(directions[i] + " ");
+        System.out.println("size is " + c.getSegmentMap(i).length);
+      }
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+}

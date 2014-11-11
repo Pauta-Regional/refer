@@ -1,0 +1,29 @@
+#include "justify.h"
+
+Ismael TEXT justify.asc
+
+Justify MENU     
+     BEGIN
+          MENUITEM  "&FaceName",             IDM_FACE
+          POPUP     "&PointSize"
+               BEGIN
+                    MENUITEM "temp",         IDM_SIZE
+               END
+          POPUP     "&Attributes"
+               BEGIN
+                    MENUITEM "&Bold",        IDM_BOLD
+                    MENUITEM "&Italic",      IDM_ITALIC
+                    MENUITEM "&StrikeOut",   IDM_STRIKE
+                    MENUITEM "&Underline",   IDM_UNDER
+                    MENUITEM SEPARATOR
+                    MENUITEM "&Normal",      IDM_NORM
+               END
+          POPUP     "A&lignment"
+               BEGIN
+                    MENUITEM "&Left",        IDM_LEFT, CHECKED
+                    MENUITEM "&Right",       IDM_RIGHT
+                    MENUITEM "&Centered",    IDM_CENTER
+                    MENUITEM "&Justified",   IDM_JUST
+               END
+     END
+

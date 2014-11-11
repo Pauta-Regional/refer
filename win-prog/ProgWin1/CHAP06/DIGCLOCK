@@ -1,0 +1,6 @@
+digclock.obj : digclock.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp digclock.c
+
+digclock.exe : digclock.obj digclock.def
+     link4 digclock, /align:16, /map, slibw, digclock
+

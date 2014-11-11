@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{670D164C-BC2B-47AB-8369-2D4CEEFAA6F5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>RichTextWithStatus</AssemblyName>
+    <StartupObject>RichTextWithStatus</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\4 Custom Controls\ColorGridDemo\ColorGrid.cs">
+      <Link>ColorGrid.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\CustomColorMenu\ToolStripColorGrid.cs">
+      <Link>ToolStripColorGrid.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\FormattingToolStrip\FormattingToolStrip.cs">
+      <Link>FormattingToolStrip.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichTextWithStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\FormattingToolStrip\AlignTableCellMiddleCenter.bmp">
+      <Link>AlignTableCellMiddleCenter.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\FormattingToolStrip\AlignTableCellMiddleLeftJustHS.bmp">
+      <Link>AlignTableCellMiddleLeftJustHS.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\FormattingToolStrip\AlignTableCellMiddleRight.bmp">
+      <Link>AlignTableCellMiddleRight.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\FormattingToolStrip\ChooseColor.bmp">
+      <Link>ChooseColor.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\FormattingToolStrip\Forecolor.bmp">
+      <Link>Forecolor.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\FormattingToolStrip\List_Bullets.bmp">
+      <Link>List_Bullets.bmp</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

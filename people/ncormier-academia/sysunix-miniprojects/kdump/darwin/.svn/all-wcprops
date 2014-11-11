@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/darwin
+END
+kioctlname.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/darwin/kioctlname.c
+END
+kioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/darwin/kioctl.h
+END
+ksyscalls.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/kdump/darwin/ksyscalls.h
+END

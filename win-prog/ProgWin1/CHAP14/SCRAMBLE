@@ -1,0 +1,6 @@
+scramble.obj : scramble.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp scramble.c
+
+scramble.exe : scramble.obj scramble.def
+     link4 scramble, /align:16, /map, slibw, scramble
+

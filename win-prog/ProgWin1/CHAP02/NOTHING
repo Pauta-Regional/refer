@@ -1,0 +1,6 @@
+nothing.obj : nothing.c
+     cl -c -D LINT-ARGS -Gsw -Os -W2 -Zp nothing.c
+
+nothing.exe : nothing.obj nothing.def
+     link4 nothing, /align:16, /map, slibw, nothing
+

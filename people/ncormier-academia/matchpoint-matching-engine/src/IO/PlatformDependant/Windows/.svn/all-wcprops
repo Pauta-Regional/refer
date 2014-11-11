@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows
+END
+MSXMLSAXParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLSAXParser.h
+END
+WinXMLUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/WinXMLUtils.cpp
+END
+MSXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLParser.h
+END
+WinXMLUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/WinXMLUtils.h
+END
+MSXMLAttributes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLAttributes.cpp
+END
+MSXMLErrorHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLErrorHandler.cpp
+END
+MSXMLSAXParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLSAXParser.cpp
+END
+MSXMLAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLAttributes.h
+END
+MSXMLParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLParser.cpp
+END
+MSXMLErrorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/matchpoint%20-%20matching%20engine/src/IO/PlatformDependant/Windows/MSXMLErrorHandler.h
+END

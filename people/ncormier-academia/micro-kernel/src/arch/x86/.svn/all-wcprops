@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86
+END
+x86_paging.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/x86_paging.h
+END
+ia32_addr_space_def.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/ia32_addr_space_def.c
+END
+x86_paging_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/x86_paging_types.h
+END
+ia32_addr_space_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/ia32_addr_space_def.h
+END
+ia32_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/ia32_types.h
+END
+x86_paging.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/x86_paging.c
+END
+x86_segmentation_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/epitech%20master%20projects/micro-kernel/src/arch/x86/x86_segmentation_types.h
+END

@@ -1,0 +1,6 @@
+keylook.obj : keylook.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp keylook.c
+
+keylook.exe : keylook.obj keylook.def
+     link4 keylook, /align:16, /map, slibw, keylook
+

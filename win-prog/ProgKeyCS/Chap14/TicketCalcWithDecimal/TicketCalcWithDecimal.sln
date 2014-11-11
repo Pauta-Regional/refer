@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketCalcWithDecimal", "TicketCalcWithDecimal.csproj", "{CCB4C5B7-6B47-4BCF-B0EA-48087C87A319}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CCB4C5B7-6B47-4BCF-B0EA-48087C87A319}.Debug.ActiveCfg = Debug|.NET
+		{CCB4C5B7-6B47-4BCF-B0EA-48087C87A319}.Debug.Build.0 = Debug|.NET
+		{CCB4C5B7-6B47-4BCF-B0EA-48087C87A319}.Release.ActiveCfg = Release|.NET
+		{CCB4C5B7-6B47-4BCF-B0EA-48087C87A319}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

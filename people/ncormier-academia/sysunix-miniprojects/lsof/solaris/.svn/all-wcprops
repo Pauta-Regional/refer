@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris
+END
+vfs_conf.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/vfs_conf.c
+END
+lsof.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/lsof.c
+END
+vdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/vdev.c
+END
+vsock.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/vsock.c
+END
+nfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/nfs.c
+END
+lsof.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/lsof.h
+END
+vdoor.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/vdoor.c
+END
+vfifo.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/vfifo.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/Makefile
+END
+ufs.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/sysunix-miniprojects/lsof/solaris/ufs.c
+END

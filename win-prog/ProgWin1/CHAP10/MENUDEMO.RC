@@ -1,0 +1,35 @@
+#include "menudemo.h"
+
+MenuDemo MENU
+     BEGIN
+          POPUP "&File"
+               BEGIN
+                    MENUITEM "&New",               IDM_NEW
+                    MENUITEM "&Open...",           IDM_OPEN
+                    MENUITEM "&Save",              IDM_SAVE
+                    MENUITEM "Save &As...",        IDM_SAVEAS
+                    MENUITEM SEPARATOR
+                    MENUITEM "E&xit",              IDM_EXIT
+                    MENUITEM "A&bout Menudemo...", IDM_ABOUT
+               END
+          POPUP "&Edit"
+               BEGIN
+                    MENUITEM "&Undo",              IDM_UNDO
+                    MENUITEM SEPARATOR
+                    MENUITEM "Cu&t",               IDM_CUT
+                    MENUITEM "&Copy",              IDM_COPY
+                    MENUITEM "&Paste",             IDM_PASTE
+                    MENUITEM "C&lear",             IDM_CLEAR
+               END
+          POPUP "&Background"
+               BEGIN
+                    MENUITEM "&White",             IDM_WHITE, CHECKED
+                    MENUITEM "&Lt Gray",           IDM_LTGRAY
+                    MENUITEM "&Gray",              IDM_GRAY
+                    MENUITEM "&Dk Gray",           IDM_DKGRAY
+                    MENUITEM "&Black",             IDM_BLACK
+                    MENUITEM "&Hollow",            IDM_HOLLOW
+               END
+          MENUITEM "\a&Help",                      IDM_HELP
+      END
+

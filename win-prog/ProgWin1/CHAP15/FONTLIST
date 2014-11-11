@@ -1,0 +1,10 @@
+fontlist.obj : fontlist.c fontlist.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp fontlist.c
+
+fontlist.res : fontlist.rc fontlist.h
+     rc -r fontlist.rc
+
+fontlist.exe : fontlist.obj fontlist.def fontlist.res
+     link4 fontlist, /align:16, /map, slibw, fontlist
+     rc fontlist.res
+

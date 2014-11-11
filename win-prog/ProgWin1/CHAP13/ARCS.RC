@@ -1,0 +1,12 @@
+#include "arcs.h"
+
+Arcs MENU
+     BEGIN
+          POPUP "&Options"
+               BEGIN
+                    MENUITEM "&Arc",    IDM_ARC,  CHECKED
+                    MENUITEM "&Chord",  IDM_CHORD
+                    MENUITEM "&Pie",    IDM_PIE
+               END
+     END
+

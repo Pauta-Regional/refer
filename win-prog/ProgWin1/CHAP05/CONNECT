@@ -1,0 +1,6 @@
+connect.obj : connect.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp connect.c
+
+connect.exe : connect.obj connect.def
+     link4 connect, /align:16, /map, slibw, connect
+

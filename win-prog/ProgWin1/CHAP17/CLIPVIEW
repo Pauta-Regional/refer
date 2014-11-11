@@ -1,0 +1,6 @@
+clipview.obj : clipview.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp clipview.c
+
+clipview.exe : clipview.obj clipview.def
+     link4 clipview, /align:16, /map, slibw, clipview
+

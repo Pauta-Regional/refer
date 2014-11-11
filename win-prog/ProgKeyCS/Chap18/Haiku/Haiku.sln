@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku", "Haiku.csproj", "{D7F45F2A-58D2-4503-A9F2-F2F813EFB14B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D7F45F2A-58D2-4503-A9F2-F2F813EFB14B}.Debug.ActiveCfg = Debug|.NET
+		{D7F45F2A-58D2-4503-A9F2-F2F813EFB14B}.Debug.Build.0 = Debug|.NET
+		{D7F45F2A-58D2-4503-A9F2-F2F813EFB14B}.Release.ActiveCfg = Release|.NET
+		{D7F45F2A-58D2-4503-A9F2-F2F813EFB14B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

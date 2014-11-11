@@ -1,0 +1,6 @@
+showbit.obj : showbit.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp showbit.c
+
+showbit.exe : showbit.obj showbit.def
+     link4 showbit, /align:16, /map, slibw, showbit
+

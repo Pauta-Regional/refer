@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/freebsd/dkom
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/freebsd/dkom/test.c
+END
+dkom.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/freebsd/dkom/dkom.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/macquarie%20master%20projects/kernel%20based%20malicious%20code/freebsd/dkom/Makefile
+END

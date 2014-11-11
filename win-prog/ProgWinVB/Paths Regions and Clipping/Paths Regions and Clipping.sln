@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ScribbleWithPath", "ScribbleWithPath\ScribbleWithPath.vbproj", "{004C88BD-0FF9-4B34-81C7-0AE9DA2CFB64}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LineArcCombo", "LineArcCombo\LineArcCombo.vbproj", "{90872080-862C-4B9D-BA60-BF7DCD062B36}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LineArcPath", "LineArcPath\LineArcPath.vbproj", "{0B712BE2-5A92-4BB9-B55D-FFB9618CA5F1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Clover", "Clover\Clover.vbproj", "{18D176F1-6333-43A2-A1BA-3AD6ABC31BE6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Flower", "Flower\Flower.vbproj", "{55941444-35D8-432B-B871-137D6FA601D4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KeyholeClip", "KeyholeClip\KeyholeClip.vbproj", "{BC0971FC-7B57-4252-AD9C-1566C7CAFB8E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WidePolyline", "WidePolyline\WidePolyline.vbproj", "{B4F9EFF5-54D1-4D4E-A3AC-8167A0057C7A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WidenPath", "WidenPath\WidenPath.vbproj", "{FF6645AF-7E28-4612-95CD-7DF20D7C0AB9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PathWarping", "PathWarping\PathWarping.vbproj", "{2F15551C-47F6-43F2-B671-1882E2C2AD70}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClippingCombinations", "ClippingCombinations\ClippingCombinations.vbproj", "{0C8BCAE8-1911-4142-B9D3-546D32C1C264}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KeyholeBitmap", "KeyholeBitmap\KeyholeBitmap.vbproj", "{BF88CADA-2C00-4C1B-B028-6D19E95E2F6C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KeyholeClipCentered", "KeyholeClipCentered\KeyholeClipCentered.vbproj", "{BCF85775-54F6-471B-9229-F69B8CCCA2DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{004C88BD-0FF9-4B34-81C7-0AE9DA2CFB64}.Debug.ActiveCfg = Debug|.NET
+		{004C88BD-0FF9-4B34-81C7-0AE9DA2CFB64}.Debug.Build.0 = Debug|.NET
+		{004C88BD-0FF9-4B34-81C7-0AE9DA2CFB64}.Release.ActiveCfg = Release|.NET
+		{004C88BD-0FF9-4B34-81C7-0AE9DA2CFB64}.Release.Build.0 = Release|.NET
+		{90872080-862C-4B9D-BA60-BF7DCD062B36}.Debug.ActiveCfg = Debug|.NET
+		{90872080-862C-4B9D-BA60-BF7DCD062B36}.Debug.Build.0 = Debug|.NET
+		{90872080-862C-4B9D-BA60-BF7DCD062B36}.Release.ActiveCfg = Release|.NET
+		{90872080-862C-4B9D-BA60-BF7DCD062B36}.Release.Build.0 = Release|.NET
+		{0B712BE2-5A92-4BB9-B55D-FFB9618CA5F1}.Debug.ActiveCfg = Debug|.NET
+		{0B712BE2-5A92-4BB9-B55D-FFB9618CA5F1}.Debug.Build.0 = Debug|.NET
+		{0B712BE2-5A92-4BB9-B55D-FFB9618CA5F1}.Release.ActiveCfg = Release|.NET
+		{0B712BE2-5A92-4BB9-B55D-FFB9618CA5F1}.Release.Build.0 = Release|.NET
+		{18D176F1-6333-43A2-A1BA-3AD6ABC31BE6}.Debug.ActiveCfg = Debug|.NET
+		{18D176F1-6333-43A2-A1BA-3AD6ABC31BE6}.Debug.Build.0 = Debug|.NET
+		{18D176F1-6333-43A2-A1BA-3AD6ABC31BE6}.Release.ActiveCfg = Release|.NET
+		{18D176F1-6333-43A2-A1BA-3AD6ABC31BE6}.Release.Build.0 = Release|.NET
+		{55941444-35D8-432B-B871-137D6FA601D4}.Debug.ActiveCfg = Debug|.NET
+		{55941444-35D8-432B-B871-137D6FA601D4}.Debug.Build.0 = Debug|.NET
+		{55941444-35D8-432B-B871-137D6FA601D4}.Release.ActiveCfg = Release|.NET
+		{55941444-35D8-432B-B871-137D6FA601D4}.Release.Build.0 = Release|.NET
+		{BC0971FC-7B57-4252-AD9C-1566C7CAFB8E}.Debug.ActiveCfg = Debug|.NET
+		{BC0971FC-7B57-4252-AD9C-1566C7CAFB8E}.Debug.Build.0 = Debug|.NET
+		{BC0971FC-7B57-4252-AD9C-1566C7CAFB8E}.Release.ActiveCfg = Release|.NET
+		{BC0971FC-7B57-4252-AD9C-1566C7CAFB8E}.Release.Build.0 = Release|.NET
+		{B4F9EFF5-54D1-4D4E-A3AC-8167A0057C7A}.Debug.ActiveCfg = Debug|.NET
+		{B4F9EFF5-54D1-4D4E-A3AC-8167A0057C7A}.Debug.Build.0 = Debug|.NET
+		{B4F9EFF5-54D1-4D4E-A3AC-8167A0057C7A}.Release.ActiveCfg = Release|.NET
+		{B4F9EFF5-54D1-4D4E-A3AC-8167A0057C7A}.Release.Build.0 = Release|.NET
+		{FF6645AF-7E28-4612-95CD-7DF20D7C0AB9}.Debug.ActiveCfg = Debug|.NET
+		{FF6645AF-7E28-4612-95CD-7DF20D7C0AB9}.Debug.Build.0 = Debug|.NET
+		{FF6645AF-7E28-4612-95CD-7DF20D7C0AB9}.Release.ActiveCfg = Release|.NET
+		{FF6645AF-7E28-4612-95CD-7DF20D7C0AB9}.Release.Build.0 = Release|.NET
+		{2F15551C-47F6-43F2-B671-1882E2C2AD70}.Debug.ActiveCfg = Debug|.NET
+		{2F15551C-47F6-43F2-B671-1882E2C2AD70}.Debug.Build.0 = Debug|.NET
+		{2F15551C-47F6-43F2-B671-1882E2C2AD70}.Release.ActiveCfg = Release|.NET
+		{2F15551C-47F6-43F2-B671-1882E2C2AD70}.Release.Build.0 = Release|.NET
+		{0C8BCAE8-1911-4142-B9D3-546D32C1C264}.Debug.ActiveCfg = Debug|.NET
+		{0C8BCAE8-1911-4142-B9D3-546D32C1C264}.Debug.Build.0 = Debug|.NET
+		{0C8BCAE8-1911-4142-B9D3-546D32C1C264}.Release.ActiveCfg = Release|.NET
+		{0C8BCAE8-1911-4142-B9D3-546D32C1C264}.Release.Build.0 = Release|.NET
+		{BF88CADA-2C00-4C1B-B028-6D19E95E2F6C}.Debug.ActiveCfg = Debug|.NET
+		{BF88CADA-2C00-4C1B-B028-6D19E95E2F6C}.Debug.Build.0 = Debug|.NET
+		{BF88CADA-2C00-4C1B-B028-6D19E95E2F6C}.Release.ActiveCfg = Release|.NET
+		{BF88CADA-2C00-4C1B-B028-6D19E95E2F6C}.Release.Build.0 = Release|.NET
+		{BCF85775-54F6-471B-9229-F69B8CCCA2DC}.Debug.ActiveCfg = Debug|.NET
+		{BCF85775-54F6-471B-9229-F69B8CCCA2DC}.Debug.Build.0 = Debug|.NET
+		{BCF85775-54F6-471B-9229-F69B8CCCA2DC}.Release.ActiveCfg = Release|.NET
+		{BCF85775-54F6-471B-9229-F69B8CCCA2DC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

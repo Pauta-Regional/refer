@@ -1,0 +1,294 @@
+// Treble, Page 1, Line 1
+
+E#6 4 C#6 G#5 C#6 E#6 C#6 
+F#6 4 C#6 F#6 C#6 F#6 C#6
+G#6 4 C#6 G#6 C#6 G#6 C#6 
+A#6 4 C#6 A#6 C#6 A#6 C#6 
+G#6 4 C#6 G#6 C#6 G#6 C#6
+F#6 4 E#6 D#6 E#6 F#6 D#6
+
+// Treble, Page 1, Line 2
+
+E#6 4 D#6 C#6 D#6 E#6 C#6
+D#6 4 E#6 D#6 C#6 B#5 A#5
+G#5 16 G#6 8
+A#5 16 G#6 8
+B#5 16 G#6 8
+C#6 16 G#6 8
+B#5 16 G#6 8
+A#5 16 G6 8
+
+// Treble, Page 1, Line 3
+
+G#5 16 G#6 16
+F#6 4 E#6 D#6 E#6
+F#6 4 D#6 A#5 D#6 F#6 D#6
+G#6 4 D#6 G#6 D#6 G#6 D#6
+A#6 4 D#6 A#6 D#6 A#6 D#6
+B6 4 D#6 B6 D#6 B6 D#6
+A#6 4 D#6 A#6 D#6 A#6 D#6
+G#6 4 F#6 E#6 F#6 G#6 E#6
+
+// Treble, Page 1, Line 4
+
+F#6 4 E#6 D#6 E#6 F#6 D#6
+E#6 4 F#6 E#6 D#6 C#6 B#5
+A#5 16 A#6 8
+B#5 16 A#6 8
+C#6 16 A#6 8
+D#6 16 A#6 8
+C#6 16 A#6 8
+B#5 16 A6 8
+
+// Treble, Page 1, Line 5
+
+A#5 16 A#6 16
+G#6 8 G6
+G#6 8 G#5 G#6 16
+F#6 8 E#6 
+F#6 4 E#6 D#6 E#6 F#6 D#6
+A6 4 G6 E#6 G6 A6 E#6
+A#6 4 A6 A#6 B#6 A#6 G#6
+
+// Treble, Page 1, Line 6
+
+G6 4 E#6 D#6 E#6 G6 D#6
+G#6 8 G#6 G#6 16
+F#6 8 E#6
+F#6 8 F#5 8 F#6 16
+E#6 8 D#6
+E#6 4 D#6 C#6 D#6 E#6 C#6
+G6 4 E#6 D#6 E#6 G6 D#6
+
+// Treble, Page 1, Line 7
+
+G#6 4 G6 G#6 A#6 G#6 F#6
+E#6 4 D#6 C#6 D#6 E#6 C#6
+F#5 16 F#6 8
+G#5 16 F#6 8
+A#5 16 F#6 8
+B5 16 F#6 8
+A#5 16 F#6 8
+
+// Treble, Page 2, Line 1
+
+G#5 16 E#6 8
+F#5 16 F#6 16
+E#6 4 D#6 C#6 D#6
+E#6 4 C#6 G#5 C#6 E#6 C#6
+F#6 4 C#6 F#6 C#6 F#6 C#6 
+G#6 4 C#6 G#6 C#6 G#6 C#6 
+A#6 4 C#6 A#6 C#6 A#6 C#6 
+G#6 4 C#6 G#6 C#6 G#6 C#6 
+
+// Treble, Page 2, Line 2
+
+F#6 4 E#6 D#6 E#6 F#6 D#6
+E#6 4 D#6 C#6 D#6 E#6 C#6
+D#6 4 E#6 D#6 C#6 B#5 A#5
+B#5 4 G#5 R G#5 R G#5
+B#5 4 G#5 R G#5 R G#5
+C#6 4 G#5 R G#5 R G#5
+C#6 4 G#5 R G#5 R G#5
+F#6 4 G#5 R G#5 R G#5
+
+// Treble, Page 2, Line 3
+
+F#6 4 G#5 R G#5 R G#5 
+E#6 4 G#5 R G#5 R G#5 
+E#6 4 G#5 R G#5 R G#5 
+G6 4 A#5 R A#5 R A#5
+G6 4 A#5 R A#5 R A#5
+G#6 4 B#5 R B#5 R B#5
+G#6 4 B#5 R B#5 R B#5
+G#6 4 C#6 R G#5 R C#6 
+
+// Treble, Page 2, Line 4
+
+R 4 E#6 R G#6 R A#6
+B6 4 A#6 G#6 F#6 E#6 D#6
+E#6 4 F#6 G#6 B6 A#6 G#6
+A#6 4 D#6 R F#5 R A#5
+R 4 D#6 R F#6 R G#6 
+A6 4 G#6 F#6 E6 D#6 C#6 
+D#6 4 E6 F#6 A6 G#6 F#6
+
+// Treble, Page 2, Line 5
+
+G#6 4 C#6 R E6 R C#6
+R 4 A5 R F#5 R D#6
+R 4 G#5 R E5 R C#6
+R 4 A5 R F#5 R D#5
+B#4 4 G#4 R G#4 R G#4 
+B#4 4 G#4 R G#4 R G#4
+C#5 4 G#4 R G#4 R G#4
+
+// Treble, Page 2, Line 6
+
+C#5 4 G#4 R G#4 R G#4
+F#5 4 G#4 R G#4 R G#4
+F#5 4 G#4 R G#4 R G#4
+E#5 4 G#4 R G#4 R G#4
+E#5 4 G#4 R G#4 R G#4
+G5  4 A#4 R A#4 R A#4
+G5  4 A#4 R A#4 R A#4
+
+// Treble, Page 2, Line 7
+
+R 24
+C#5 4 E5 G5 A#5 C#6 E6
+B#5 4 D#6 F#6 D#6 B#5 G#5
+F#5 4 D#5 B#4 R 12
+E#5 4 G#5 C#6 G#5 E#5 C#5
+R 24
+R 24
+R 24
+
+|
+
+// Bass, Page 1, Line 1
+
+C#4 16 C#5 8 
+D#4 16 C#5 8
+E#4 16 C#5 8
+F#4 16 C#5 8
+E#4 16 C#5 8
+D#4 16 B#4 8
+
+// Bass, Page 1, Line 2
+
+C#4 16 C#5 16
+B#4 4 A#4 G#4 A#4
+B#4 4 G#4 D#4 G#4 B#4 G#4
+C#5 4 G#4 C#5 G#4 C#5 G#4
+D#5 4 G#4 D#5 G#4 D#5 G#4
+E#5 4 G#4 E#5 G#4 E#5 G#4
+D#5 4 G#4 D#5 G#4 D#5 G#4
+C#5 4 B#4 A#4 B#4 C#5 A#4
+
+// Bass, Page 1, Line 3
+
+B#4 4 A#4 G#4 A#4 B#4 G#4
+A#4 4 B4 A#4 G#4 F#4 E#4 
+D#4 16 D#5 8
+E#4 16 D#5 8
+F#4 16 D#5 8
+G#4 16 D#5 8
+F#4 16 D#5 8
+E#4 16 D5 8
+
+// Bass, Page 1, Line 4
+
+D#4 16 D#5 16
+C#5 4 B#4 A#4 B#4
+C#5 4 A#4 E#4 A#4 C#5 A#4 
+D#5 4 A#4 D#5 A#4 D#5 A#4
+E#5 4 A#4 E#5 A#4 E#5 A#4
+F#5 4 A#4 F#5 A#4 F#5 A#4
+E#5 4 A#4 E#5 A#4 E#5 A#4
+D#5 4 C#5 B#4 C#5 D#5 B#4
+
+// Bass, Page 1, Line 5
+
+C#5 4 B#4 A#4 B#4 C#5 A#4
+E5 4 D5 B#4 D5 E5 B#4
+E#5 4 E5 E#5 G5 E#5 D#5
+D5 4 B#4 A#4 B#4 D5 A#4
+D#5 8 D#4 D#5 16
+C#5 8 B#4
+C#5 8 C#4 C#5 16
+
+// Bass, Page 1, Line 6
+
+B#4 8 A#4
+B#4 4 A#4 G#4 A#4 B#4 G#4
+D5 4 B#4 A#4 B#4 D5 A#4
+D#5 4 D5 D#5 E#5 D#5 C#5
+B#4 4 A#4 G#4 A#4 B#4 G#4
+C#5 8 C#4 C#5 16
+B4 8 A#4
+
+// Bass, Page 1, Line 7
+
+B4 8 B3 B4 16
+A#4 8 G#4
+A#4 4 F#4 C#4 F#4 A#4 F#4
+B4 4 F#4 B4 F#4 B4 F#4
+C#5 4 F#4 C#5 F#4 C#5 F#4
+D#5 4 F#4 D#5 F#4 D#5 F#4
+C#5 4 F#4 C#5 F#4 C#5 F#4
+
+
+// Bass, Page 2, Line 1
+
+B4 4 A#4 G#4 A#4 B4 G#4
+A#4 4 G#4 F#4 G#4 A#4 F#4
+G#4 4 A#4 G#4 F#4 E#4 D#4
+C#4 16 C#5 8
+D#4 16 C#5 8
+E#4 16 C#5 8
+F#4 16 C#5 8
+E#4 16 C#5 8
+
+// Bass, Page 2, Line 2
+
+D#4 16 B#4 8
+C#4 16 C#5 16
+B#4 4 A#4 G#4 A#4
+G#4 8 F#5 D#5
+G#4 8 F#5 D#5
+G#4 8 E#5 C#5
+G#4 8 E#5 C#5
+G#4 8 D#5 B#4
+
+// Bass, Page 2, Line 3
+
+G#4 8 D#5 B#4 G#4 E#5 C#5 G#4 E#5 C#5 G#4 E5 C#5 G#4 E5 C#5 G#4 D#5 B#4 F#4 D#5 B#4 E#4 E#5 C#5
+
+// Bass, Page 2, Line 4
+
+G#4 8 E#4 D#4 D4 E#4 A#4 D5 E#5 G#5 F#5 D#5 A#4 F#4 D#4 C#4 B#3 D#4 G#4 B#4 D#5 F#5
+
+// Bass, Page 2, Line 5
+
+E5 8 C#5 A4
+F#4 8 D#5 B#4
+E4 8 C#5 A4
+F#4 8 D#4 B#3
+G#3 8 F#4 D#4 
+G#3 8 F#4 D#4 
+G#3 8 E#4 C#4 
+
+// Bass, Page 2, Line 6
+
+G#3 8 E#4 C#4
+G#3 8 D#4 B#3
+G#3 8 D#4 B#3
+G#3 8 E#4 C#4
+G#3 8 E#4 C#4
+G#3 8 E4  C#4
+G#3 8 E4  C#4
+
+// Bass, Page 2, Line 7
+
+G#3 4 B#3 D#4 F#4 A4 B#4
+R 24
+G#3 8 R R
+R 12 G#4 4 B#4 D#5 
+G#4 8 R R
+A#4 4 G4 E4 C#4 E4 F#4
+G#3 24
+R 24
+
+|
+
+// Final chords
+
+R 2448 R 4 R  8 C#4 1 R 11 D#4 1 R 16 C#4 48 |
+R 2448 R 4 R  9 E#4 1 R 11 F#4 1 R 15 E#4 48 |
+R 2448 R 4 R 10 G#4 1 R 11 G#4 1 R 14 G#4 48 |
+R 2448 R 4 R 11 E#5 1 R 11 D#5 1 R 13 C#5 48 |
+R 2448 R 4 R 12 G#5 1 R 11 G#5 1 R 12 G#5 48 |
+R 2448 R 4 R 13 C#6 1 R 11 B#5 1 R 11 C#6 48 |
+
+

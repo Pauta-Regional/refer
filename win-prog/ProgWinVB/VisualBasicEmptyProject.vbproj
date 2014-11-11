@@ -1,0 +1,39 @@
+<VisualStudioProject>
+    <VisualBasic>
+        <Build>
+            <Settings 
+                OutputType = "Exe" 
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    DebugSymbols = "true"
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    IncrementalBuild = "true"
+                    OutputPath = "bin"
+                />
+                <Config
+                    Name = "Release"
+                    DebugSymbols = "false"
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin"
+                />
+            </Settings>
+            <References>
+                <Reference Name = "System" />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd
+END
+gtk-dclock.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/gtk-dclock.c
+END
+glcd-dclock
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/glcd-dclock
+END
+gtk-lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/gtk-lcd.c
+END
+glcd-dclock.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/glcd-dclock.c
+END
+gtk-dclock.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/gtk-dclock.h
+END
+glcd
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/glcd
+END
+gtk-lcd-banner.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/gtk-lcd-banner.c
+END
+glcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/glcd.c
+END
+gtk-lcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/gtk-lcd.h
+END
+glcd-banner
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/glcd-banner
+END
+glcd-banner.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/glcd-banner.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/Makefile
+END
+gtk-lcd-banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/epitech%20bachelor%20projects/gtk/glcd/gtk-lcd-banner.h
+END

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<KeyofCSharp Version="1.0">
+  <Files>
+    <File RelPath="TemperatureDemo.cs" />
+  </Files>
+  <References>
+    <Reference Name="Temperature" HintPath="..\Temperature\Temperature.dll" Private="True" />
+  </References>
+  <Settings CheckForOverflowUnderflow="False" DefineConstants="" DebugSymbols="False" DocumentationFile="" StartupObject="" Optimize="True" OutputType="exe" AllowUnsafeBlocks="False" WarningLevel="4" TreatWarningsAsErrors="False" />
+</KeyofCSharp>

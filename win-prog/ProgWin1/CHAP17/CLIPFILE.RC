@@ -1,0 +1,45 @@
+#include <style.h>
+#include "clipfile.h"
+#include "filedlg.h"
+
+ClipFile ICON clipfile.ico
+
+ClipFile MENU
+     BEGIN
+          POPUP "&File"
+               BEGIN
+                    MENUITEM "&Load...",        IDM_LOAD
+                    MENUITEM "&Save...",        IDM_SAVE 
+               END
+          POPUP "For&mat"
+               BEGIN
+                    MENUITEM "&Text\a.TXT",     IDM_TXT, CHECKED
+                    MENUITEM "&Bitmap\a.BMP",   IDM_BMP
+                    MENUITEM "&Metafile\a.WMF", IDM_WMF
+                    MENUITEM "&Sylk\a.SYL",     IDM_SYL
+                    MENUITEM "&DIF\a.DIF",      IDM_DIF
+               END
+     END
+
+MFPInfo DIALOG 10, 20, 140, 104
+     CAPTION "Metafile Picture Information"
+     STYLE WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_POPUP
+     BEGIN
+          RADIOBUTTON   "MM_TEXT",        IDD_TEXT,    4,  4, 72, 12, WS_GROUP
+          RADIOBUTTON   "MM_LOMETRIC",    IDD_LOMET,   4, 16, 72, 12
+          RADIOBUTTON   "MM_HIMETRIC",    IDD_HIMET,   4, 28, 72, 12
+          RADIOBUTTON   "MM_LOENGLISH",   IDD_LOENG,   4, 40, 72, 12
+          RADIOBUTTON   "MM_HIENGLISH",   IDD_HIENG,   4, 52, 72, 12
+          RADIOBUTTON   "MM_TWIPS",       IDD_TWIPS,   4, 64, 72, 12
+          RADIOBUTTON   "MM_ISOTROPIC",   IDD_ISOTR,   4, 76, 72, 12
+          RADIOBUTTON   "MM_ANISOTROPIC", IDD_ANISO,   4, 88, 72, 12
+          LTEXT         "&xExt:",         0,          76, 10, 24,  8, WS_GROUP
+          EDITTEXT                        IDD_XEXT,  102,  6, 32, 12
+          LTEXT         "&yExt:",         0,          76, 24, 24,  8, WS_GROUP
+          EDITTEXT                        IDD_YEXT,  102, 22, 32, 12
+          DEFPUSHBUTTON "OK",             IDOK,       86, 66, 40, 14, WS_GROUP
+          PUSHBUTTON    "Cancel",         IDCANCEL,   86, 84, 40, 14
+     END
+
+rcinclude filedlg.dlg
+

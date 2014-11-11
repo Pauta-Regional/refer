@@ -1,0 +1,6 @@
+bounce.obj : bounce.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp bounce.c
+
+bounce.exe : bounce.obj bounce.def
+     link4 bounce, /align:16, /map, slibw, bounce
+

@@ -1,0 +1,8 @@
+welcome3.obj : welcome3.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp welcome3.c
+
+welcome3.exe : welcome3.obj welcome3.def
+     link4 welcome3, /align:16, /map, slibw, welcome3
+     echo /* no resources */ >welcome3.rc
+     rc welcome3
+

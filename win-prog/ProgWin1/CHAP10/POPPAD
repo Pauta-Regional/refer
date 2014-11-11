@@ -1,0 +1,10 @@
+poppad.obj : poppad.c poppad.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp poppad.c
+
+poppad.res : poppad.rc poppad.h poppad.ico
+     rc -r poppad.rc
+
+poppad.exe : poppad.obj poppad.def poppad.res
+     link4 poppad, /align:16, /map, slibw, poppad.def
+     rc poppad.res
+

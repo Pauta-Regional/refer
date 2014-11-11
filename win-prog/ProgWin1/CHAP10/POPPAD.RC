@@ -1,0 +1,40 @@
+#include "style.h"
+#include "poppad.h"
+
+PopPad ICON poppad.ico
+
+PopPad MENU
+     BEGIN
+          POPUP "&File"
+               BEGIN
+                    MENUITEM "&New",              IDM_NEW
+                    MENUITEM "&Open...",          IDM_OPEN
+                    MENUITEM "&Save",             IDM_SAVE
+                    MENUITEM "Save &As...",       IDM_SAVEAS
+                    MENUITEM SEPARATOR
+                    MENUITEM "&Print",            IDM_PRINT
+                    MENUITEM SEPARATOR            
+                    MENUITEM "E&xit",             IDM_EXIT
+                    MENUITEM "A&bout PopPad...",  IDM_ABOUT
+               END
+          POPUP "&Edit"
+               BEGIN
+                    MENUITEM "&Undo\tAlt+BkSp",   IDM_UNDO
+                    MENUITEM SEPARATOR
+                    MENUITEM "Cu&t\tDel",         IDM_CUT
+                    MENUITEM "&Copy\tCtrl+Ins",   IDM_COPY
+                    MENUITEM "&Paste\tShift+Ins", IDM_PASTE
+                    MENUITEM "C&lear\tShift+Del", IDM_CLEAR
+                    MENUITEM SEPARATOR
+                    MENUITEM "&Select All",       IDM_SELALL
+               END
+      END
+
+PopPad ACCELERATORS
+     BEGIN
+          VK_DELETE, IDM_CUT,   VIRTKEY
+          VK_INSERT, IDM_COPY,  VIRTKEY, CONTROL
+          VK_INSERT, IDM_PASTE, VIRTKEY, SHIFT
+          VK_DELETE, IDM_CLEAR, VIRTKEY, SHIFT
+     END
+

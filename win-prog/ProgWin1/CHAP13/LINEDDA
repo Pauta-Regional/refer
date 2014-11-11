@@ -1,0 +1,6 @@
+linedda.obj : linedda.c
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp linedda.c
+
+linedda.exe : linedda.obj linedda.def
+     link4 linedda, /align:16, /map, slibw, linedda
+

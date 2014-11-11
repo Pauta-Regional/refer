@@ -1,0 +1,13 @@
+clipfile.obj : clipfile.c clipfile.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp clipfile.c
+
+filedlg.obj : filedlg.c filedlg.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp filedlg.c
+
+clipfile.res : clipfile.rc clipfile.h clipfile.ico filedlg.dlg filedlg.h 
+     rc -r clipfile.rc
+
+clipfile.exe : clipfile.obj filedlg.obj clipfile.def clipfile.res
+     link4 clipfile filedlg, /align:16, /map, slibw, clipfile
+     rc clipfile.res
+

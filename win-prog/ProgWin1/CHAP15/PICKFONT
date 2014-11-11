@@ -1,0 +1,10 @@
+pickfont.obj : pickfont.c pickfont.h
+     cl -c -D LINT_ARGS -Gsw -Os -W2 -Zp pickfont.c
+
+pickfont.res : pickfont.rc pickfont.h
+     rc -r pickfont.rc
+
+pickfont.exe : pickfont.obj pickfont.def pickfont.res
+     link4 pickfont, /align:16, /map, slibw, pickfont
+     rc pickfont.res
+
