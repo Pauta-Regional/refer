@@ -1,4 +1,0 @@
- is good for saveing the file size:
-
-
-http://www.adesdesign.net/php/tutorials/other/transparent_flash.php
